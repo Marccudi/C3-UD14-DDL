@@ -1,6 +1,6 @@
 use ud14;
 
-drop table editorial, libro, tema, autor, escrito_por, trata_sobre, socio, ejemplar, prestamo;
+drop table if exists editorial, libro, tema, autor, escrito_por, trata_sobre, socio, ejemplar, prestamo;
 
 create table autor (
 	clave_autor int primary key not null,
